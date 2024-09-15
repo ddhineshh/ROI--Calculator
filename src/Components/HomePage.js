@@ -13,7 +13,7 @@ const HomePage = () => {
       <Box p={5}>
         <Grid container spacing={2}>
           {[1].map((_, index) => (
-            <Grid item size={{xs:3}}  key={index}>
+            <Grid item size={{xs:12, sm:6, md:3}}  key={index}>
               <Card>
                 <CardContent sx={{ wordWrap: 'break-word' }}>
                   <Typography gutterBottom variant="h5" fontFamily={'Inter'} fontWeight={'600'} component="div">

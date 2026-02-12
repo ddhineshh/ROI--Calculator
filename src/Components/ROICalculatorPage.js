@@ -330,7 +330,7 @@ const ROICalculatorPage = () => {
               background: 'linear-gradient(129deg, rgb(67, 50, 163) 0%, rgb(40, 108, 213) 100%)',
 
             }} onClick={handleCalculate}>
-              Calculate
+              Calculate Cost
             </Button>
           </Grid>
         </Grid>
